@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		 <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- load MUI -->
+	    <style>
+		  	.mui-checkbox {
+			  -webkit-appearance: none;
+			  position: relative;
+			  width: 25px;
+			  height: 25px;
+			  margin-right: 10px;
+			  background-color: #FFFFFF;
+			  border: solid 1px #d9d9d9;
+			  border-top-left-radius: 20px;
+			  border-top-right-radius: 20px;
+			  border-bottom-left-radius: 20px;
+			  border-bottom-right-radius: 20px;
+			  background-clip: padding-box;
+			  display: inline-block; }
+			  .mui-checkbox:focus {
+			    outline: 0 none;
+			    outline-offset: -2px; }
+			  .mui-checkbox:checked {
+			    background-color: #18b4ed;
+			    border: solid 1px #FFFFFF; }
+			    .mui-checkbox:checked:before {
+			      display: inline-block;
+			      margin-top: 1px;
+			      margin-left: 2px;
+			      font-family: iconfont;
+			      content: "\e667";
+			      color: #FFFFFF;
+			      font-size: 18px; }
+			  .mui-checkbox:disabled {
+			    background-color: #d9d9d9;
+			    border: solid 1px #d9d9d9; }
+			    .mui-checkbox:disabled:before {
+			      display: inline-block;
+			      margin-top: 1px;
+			      margin-left: 2px;
+			      font-family: iconfont;
+			      content: "\e667";
+			      color: #FFFFFF;
+			      font-size: 18px; }
+			  .mui-checkbox.checkbox-green:checked {
+			    background-color: #5cb85c; }
+			  .mui-checkbox.checkbox-orange:checked {
+			    background-color: #f0ad4e; }
+			  .mui-checkbox.checkbox-s {
+			    width: 19px;
+			    height: 19px; }
+			    .mui-checkbox.checkbox-s:before {
+			      display: inline-block;
+			      margin-top: 1px;
+			      margin-left: 2px;
+			      font-family: iconfont;
+			      content: "\e667";
+			      color: #FFFFFF;
+			      font-size: 13px; }
+			 
+			.mui-checkbox-anim {
+			  -webkit-transition: background-color ease 0.2s;
+			   transition: background-color ease 0.2s; }
+			   
+			   
+			  
+				label, input, select { vertical-align: middle }
+				/**{ -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none }*/
+				input[type=text], input[type=password], input[type=number], input[type=email], input[type=search], input[type=tel] { vertical-align: middle; outline: 0; -webkit-appearance: none }
+				input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+				color:#bbb;
+				}
+				/*select { outline: 0; -webkit-appearance: none }
+				textarea { display: block; padding: 5px; font-size: 15px; border: 1px solid #d7d7d7; outline: 0; border-radius: 3px; background: -webkit-linear-gradient(#ededed 0, #fff 5%) }
+				body { background-color: #F2F2F2; }*/
+
+
+			@charset "UTF-8";
+			/*字体文件*/
+			@font-face {
+			  font-family: 'iconfont';
+			  /* IE9*/
+			  src: url("http://at.alicdn.com/t/font_1433757735_1585197.eot");
+			  /* IE6-IE8 */
+			  src: url("http://at.alicdn.com/t/font_1433757735_1585197.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_1433757735_1585197.woff") format("woff"), url("http://at.alicdn.com/t/font_1433757735_1585197.ttf") format("truetype"), url("http://at.alicdn.com/t/font_1433757735_1585197.svg#iconfont") format("svg"); }
+
+		 </style>
+	</head>
+	<body>
+			<div class="mui-checkbox-con">
+			    <label>
+			        <input class="mui-checkbox" type="checkbox">默认未选中</label>
+			</div>
+			<div class="mui-checkbox-con">
+			    <label>
+			        <input class="mui-checkbox" type="checkbox" checked>默认选中</label>
+			</div>
+			<div class="mui-checkbox-con">
+			    <label>
+			        <input class="mui-checkbox checkbox-orange" type="checkbox" checked>橘黄色 checkbox-orange</label>
+			</div>
+			<div class="mui-checkbox-con">
+			    <label>
+			        <input class="mui-checkbox checkbox-green" type="checkbox" checked>绿色 checkbox-green</label>
+			</div>
+			<div class="mui-checkbox-con">
+			    <label>
+			        <input class="mui-checkbox" type="checkbox" disabled>禁用</label>
+			</div>    
+	</body>
+	<script type="text/javascript" src="js/jquery.1.11.1.js" ></script>
+	<script>
+				  
+		
+	</script>
+</html>
